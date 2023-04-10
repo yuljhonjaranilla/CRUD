@@ -6,10 +6,23 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3307,
+            "port": 3306,
             "driver": "MySQL",
-            "name": "ATM - Database",
+            "name": "ATM",
             "database": "dbactivity2",
+            "username": "malware",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "CRUD",
+            "database": "dbactivity3",
             "username": "malware",
             "askForPassword": true
         }
